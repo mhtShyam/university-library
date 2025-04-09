@@ -74,13 +74,3 @@ export const { POST } = serve<InitialData>(async (context) => {
     await context.sleep("wait-for-1-month", 60 * 60 * 24 * 30);
   }
 });
-
-// async function sendEmail(message: string, email: string) {
-//   // Implement email sending logic here
-//   console.log(`Sending ${message} email to ${email}`);
-// }
-
-// const getUserState = async (): Promise<UserState> => {
-//   // Implement user state logic here
-//   return "non-active";
-// };
