@@ -3,7 +3,7 @@ import BookCard from "@/components/BookCard";
 
 interface Props {
   title: string;
-  books: Book;
+  books: Book[];
   containerClassName?: string;
 }
 
